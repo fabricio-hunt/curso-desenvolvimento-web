@@ -12,6 +12,7 @@ Exemplo de Código */
 
 // Declarando variáveis com let, const e var
 let nome = "João";
+let sobrenome = "Da Silva Santos";
 const idade = 30;
 var cidade = "São Paulo";
 
@@ -21,7 +22,7 @@ nome = "Maria";
 // Tentando alterar a variável const (vai gerar um erro)
 // idade = 25; // Descomente para ver o erro
 
-console.log(`Nome: ${nome}`);
+console.log(`Nome: ${nome + sobrenome}`);
 console.log(`Idade: ${idade}`);
 console.log(`Cidade: ${cidade}`);
 
