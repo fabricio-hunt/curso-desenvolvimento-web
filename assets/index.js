@@ -12,7 +12,7 @@ Exemplo de Código */
 
 // Declarando variáveis com let, const e var
 let nome = "João";
-let sobrenome = "Da Silva Santos";
+let sobrenome = " Da Silva Santos";
 const idade = 30;
 var cidade = "São Paulo";
 
